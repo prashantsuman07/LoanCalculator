@@ -60,4 +60,6 @@ export class AppComponent {
     this.emi-=this.prevemi;
     this.principal=Math.round(this.emi*1/((this.rate/(Math.pow((1+this.rate),Number(this.year))-1))+this.rate))
   }
+  money(){
+    alert('Thank You');
 }
